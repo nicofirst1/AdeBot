@@ -22,8 +22,8 @@ disp.add_handler(MessageHandler(Filters.text,ade_tonno))
 
 updater.start_webhook(listen="0.0.0.0",
                       port=PORT,
-                      url_path="main")
-updater.bot.set_webhook("https://git.heroku.com/adebot.git")
+                      url_path="main.py")
+updater.bot.set_webhook("https://github.com/nicofirst1/AdeBot/blob/master/main.py")
 
 updater.idle()
 print("Starting...")
