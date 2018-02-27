@@ -26,3 +26,4 @@ updater.start_webhook(listen="0.0.0.0",
 updater.bot.set_webhook("https://git.heroku.com/adebot.git")
 
 updater.idle()
+print("Starting...")
