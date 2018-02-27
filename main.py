@@ -12,7 +12,7 @@ disp=updater.dispatcher
 
 def ade_tonno(bot, update):
     print(update)
-    update.message.repy_text("Ade tonno")
+    update.message.reply_text("Ade tonno")
 
 
 disp.add_handler(MessageHandler(Filters.text,ade_tonno))
