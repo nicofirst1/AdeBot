@@ -11,6 +11,7 @@ disp=updater.dispatcher
 
 
 def ade_tonno(bot, update):
+    print(update)
     update.message.repy_text("Ade tonno")
 
 
@@ -21,7 +22,7 @@ disp.add_handler(MessageHandler(Filters.text,ade_tonno))
 
 updater.start_webhook(listen="0.0.0.0",
                       port=PORT,
-                      url_path="main.py")
+                      url_path="main")
 updater.bot.set_webhook("https://git.heroku.com/adebot.git")
 
 updater.idle()
