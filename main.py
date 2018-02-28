@@ -27,3 +27,6 @@ updater.bot.set_webhook("https://adebot.herokuapp.com/main.py")
 
 updater.idle()
 print("Starting...")
+
+
+ciao
